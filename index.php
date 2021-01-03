@@ -79,9 +79,9 @@ switch ($score) {
 ?>
 <html>
  <head>
-  <title>Mesquinho Generator</title>
+  <title>Calculadora</title>
  </head>
  <body style="margin: 0;">
-  <img src="https://static.digitalleman.com/mesquinho-generator/<?php echo $src ?>" alt="<?php echo $score . '/6'; ?>" width="60" height="60" style="position: absolute; right: 0; top: 0px;">
+  <img src="https://static.digitalleman.com/calculadora/<?php echo $src ?>" alt="<?php echo $score . '/6'; ?>" width="60" height="60" style="position: absolute; right: 0; top: 0px;">
  </body>
 </html>
