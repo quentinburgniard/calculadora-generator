@@ -20,6 +20,10 @@ if (isset($fields->produtos) && isset($fields->preco) && isset($fields->quantida
     $fields->unidade = 'l';
   }
 
+  if ($fields->unidade == 'un') {
+    $fields->unidade = 'unit';
+  }
+
   $reference = file_get_contents('https://api.digitalleman.com/product-prices?slug_eq=' . $fields->produtos);
   $reference = json_decode($reference);
 
